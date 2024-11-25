@@ -18,7 +18,7 @@ use Villeon\Http\Request;
  * This route listens for GET requests on the root URL and executes a callback
  * function that returns a simple "Hello World!" response.
  *
- * @name hello_world
+ * @rout_name hello_world
  * The route is given a name, "hello_world", which can be used to generate
  * URLs programmatically elsewhere in the application.
  */
