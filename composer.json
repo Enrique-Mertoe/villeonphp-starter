@@ -1,0 +1,11 @@
+{
+  "name": "villeon/app",
+  "description": "A customizable application framework",
+  "type": "project",
+  "require": {
+    "php": "^8.0",
+    "villeon/framework": "@dev"
+  },
+  "minimum-stability": "stable",
+  "license": "MIT"
+}
