@@ -41,6 +41,7 @@ $User = Model::define("users", [
     ],
     "is_active" => [
         "type" => DataTypes::BOOL,
+
         "default" => false
     ]
 ]);
