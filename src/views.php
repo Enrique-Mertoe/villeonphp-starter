@@ -23,7 +23,7 @@ use Villeon\Http\Request;
  * URLs programmatically elsewhere in the application.
  */
 Route::get("/hello_world", function () {
-    return view("home.twig");
+    return "Hello World!";
 })->name("hello_world");
 
 /**
