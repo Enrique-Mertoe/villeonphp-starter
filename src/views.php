@@ -18,12 +18,14 @@ use Villeon\Http\Request;
  * This route listens for GET requests on the root URL and executes a callback
  * function that returns a simple "Hello World!" response.
  *
- * @rout_name hello_world
+ * @name hello_world
  * The route is given a name, "hello_world", which can be used to generate
  * URLs programmatically elsewhere in the application.
  */
-Route::get("/hello_world", function () {
-    return "Hello World!";
+Route::get("/home", function () {
+    echo ",mmmm\nkkd";
+//    throw new \Exception("dd");
+    return "Hello world!";
 })->name("hello_world");
 
 /**
