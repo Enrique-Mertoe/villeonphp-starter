@@ -12,23 +12,7 @@ use Villeon\Http\Request;
  * that handles the incoming request and generates a response.
  */
 
-/**
- * Define a route for the root URL ("/").
- *
- * This route listens for GET requests on the root URL and executes a callback
- * function that returns a simple "Hello World!" response.
- *
- * @name hello_world
- * The route is given a name, "hello_world", which can be used to generate
- * URLs programmatically elsewhere in the application.
- */
-Route::get("/home", function () {
-    echo ",mmmm\nkkd";
-//    throw new \Exception("dd");
-    return "Hello world!";
-})->name("hello_world");
+//Route::get("/", function () {
+//    return "Hello World!";
+//})->name("home");
 
-/**
- * Additional views and routes can be defined here by following the same pattern.
- * Use Route::get(), Route::post(), or other HTTP methods to create routes as needed.
- */
