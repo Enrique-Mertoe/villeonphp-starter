@@ -1,10 +1,8 @@
 <?php
 
 namespace App\Views;
-;
 
 use Villeon\Core\Facade\Route;
-use Villeon\Http\Request;
 
 /**
  * This file defines the routes for your application.
