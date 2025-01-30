@@ -6,6 +6,11 @@
     "php": "^8.0",
     "villeon/framework": "1.05"
   },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
   "minimum-stability": "stable",
   "license": "MIT"
 }
